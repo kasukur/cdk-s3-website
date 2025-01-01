@@ -7,7 +7,7 @@ You may have come across several blogs on hosting static websites on S3. This gu
 - Creating AWS resources necessary for hosting a static website.
 - Deploying the website to AWS.
 
-The website source code is hosted on GitHub: [kasukur/s3-website](https://github.com/kasukur/cdk-s3-website).
+The website source code is hosted on GitHub: [kasukur/cdk-s3-website](https://github.com/kasukur/cdk-s3-website).
 
 ---
 
