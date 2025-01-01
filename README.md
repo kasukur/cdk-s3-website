@@ -75,7 +75,7 @@ npm install -g aws-cdk
 
 1. **Download the website tempalte from [html5up.net](https://html5up.net/dimension/download)**:
 
-2. unzip the file and navigate to the folder and copy all the files to the website folder.
+2. unzip the file, navigate to the folder and copy all the files to the website folder.
 
 ```bash
 cp -r ~/Downloads/html5up-dimension ~/Documents/cdk-s3-website/website/.
