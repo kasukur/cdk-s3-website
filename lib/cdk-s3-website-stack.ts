@@ -8,7 +8,7 @@ export class CdkS3WebsiteStack extends cdk.Stack {
     super(scope, id, props);
 
     // Create an S3 bucket for the website with public access explicitly allowed
-    const websiteBucket = new s3.Bucket(this, 'SriSriWebsiteBucket', {
+    const websiteBucket = new s3.Bucket(this, 'WebsiteBucket', {
       websiteIndexDocument: 'index.html',
       publicReadAccess: true,
       removalPolicy: cdk.RemovalPolicy.DESTROY, // Optional: Remove the bucket on stack deletion
